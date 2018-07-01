@@ -24,6 +24,8 @@ int main()
 	_tscanf_s(L"%s", dwInBufer, 14);
 
 
+
+
 	TCHAR szOutBuffer[20] = { 0 };
 	DWORD x = 0;
 	DeviceIoControl(hFile, OPER2, &dwInBufer, _tcslen(dwInBufer), szOutBuffer, 11, &x, 0);

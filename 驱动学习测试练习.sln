@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IRP练习及控制码方式通讯练习Ring0", "DriverTest\DriverTest.vcxproj", "{A9408950-F2F4-4185-BBDC-1E059059FDFD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IRP练习及控制码方式通讯练习Ring0", "IRP练习及控制码方式通讯练习Ring0\DriverTest.vcxproj", "{A9408950-F2F4-4185-BBDC-1E059059FDFD}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IRP练习及控制码方式通讯练习Ring3", "IRP练习及控制码方式通讯练习\IRP练习及控制码方式通讯练习.vcxproj", "{2A1D34CA-0ED0-4707-AA30-F7300EB9C084}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IRP练习及控制码方式通讯练习Ring3", "IRP练习及控制码方式通讯练习Ring3\IRP练习及控制码方式通讯练习.vcxproj", "{2A1D34CA-0ED0-4707-AA30-F7300EB9C084}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSDT_Hook", "SSDT_Hook\SSDT_Hook.vcxproj", "{44D19B1C-6A65-494D-B1C1-52CB202EB973}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,30 @@ Global
 		{2A1D34CA-0ED0-4707-AA30-F7300EB9C084}.Release|x64.Build.0 = Release|x64
 		{2A1D34CA-0ED0-4707-AA30-F7300EB9C084}.Release|x86.ActiveCfg = Release|Win32
 		{2A1D34CA-0ED0-4707-AA30-F7300EB9C084}.Release|x86.Build.0 = Release|Win32
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|ARM.ActiveCfg = Debug|ARM
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|ARM.Build.0 = Debug|ARM
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|ARM.Deploy.0 = Debug|ARM
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|ARM64.Build.0 = Debug|ARM64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|ARM64.Deploy.0 = Debug|ARM64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|x64.ActiveCfg = Debug|x64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|x64.Build.0 = Debug|x64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|x64.Deploy.0 = Debug|x64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|x86.ActiveCfg = Debug|Win32
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|x86.Build.0 = Debug|Win32
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Debug|x86.Deploy.0 = Debug|Win32
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|ARM.ActiveCfg = Release|ARM
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|ARM.Build.0 = Release|ARM
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|ARM.Deploy.0 = Release|ARM
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|ARM64.ActiveCfg = Release|ARM64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|ARM64.Build.0 = Release|ARM64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|ARM64.Deploy.0 = Release|ARM64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|x64.ActiveCfg = Release|x64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|x64.Build.0 = Release|x64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|x64.Deploy.0 = Release|x64
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|x86.ActiveCfg = Release|Win32
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|x86.Build.0 = Release|Win32
+		{44D19B1C-6A65-494D-B1C1-52CB202EB973}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

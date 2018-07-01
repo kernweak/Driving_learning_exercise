@@ -19,7 +19,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="IRP练习及控制码方式通讯练习Ring0.c">
+    <ClCompile Include="SSDT_HOOK.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
